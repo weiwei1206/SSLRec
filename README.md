@@ -10,6 +10,8 @@
 |HCCF|<a href='https://dl.acm.org/doi/pdf/10.1145/3477495.3532058' target='_blank'>Hypergraph Contrastive Collaborative Filtering</a> | SIGIR'22 |
 |NCL| <a href='https://dl.acm.org/doi/pdf/10.1145/3485447.3512104' targets='_blank'>Improving graph collaborative filtering with neighborhood-enriched contrastive learning</a>| WWW'22|
 |SimGCL| <a href='https://dl.acm.org/doi/pdf/10.1145/3477495.3531937' targets='_blank'>Are graph augmentations necessary? simple graph contrastive learning for recommendation</a>| SIGIR'22|
+|CML| <a href='https://arxiv.org/pdf/2202.08523.pdf' targets='_blank'>Contrastive Meta Learning with Behavior Multiplicity for Recommendation</a>| WSDM'22|
+
 
 ## Environment
 <b>SSLRec</b> is implemented under the following development environment:
@@ -27,6 +29,10 @@
 |Yelp | $29,601$|$24,734$|$1,517,326$|$2.1\times 10^{-3}$|
 |MovieLens| $69,878$ |$10,196$|$9,988,816$|$1.4\times 10^{-2}$|
 |Amazon|$78,578$|$77,801$|$3,190,224$|$5.2\times 10^{-4}$|
+|Tmall | $31,882$|$31,232$|$1,451,219$|$1.4\times 10^{-3}$|
+|IJCAI-Contest| $17435,$ |$35,920$|$799,368$|$1.3\times 10^{-3}$|
+|Retail Rocket|$2,174$|$30,113$|$97,381$|$1.5\times 10^{-3}$|
+
 
 ## Usage
 To run a specific methods, change your directory to the corresponding directory (e.g. methods/sgl/). Run the training and testing with this command line: `python Main.py`. Some important arguments shared by most methods are as follows:
